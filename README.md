@@ -2,6 +2,18 @@
 
 A structured collection of **Java** programs covering language fundamentals and core OOP concepts, organized from basics to advanced topics.
 
+## Architecture / How it Works
+
+```mermaid
+flowchart LR
+    A[User] --> B[OOPS]
+    B --> C{Logic}
+    C --> D[(Data)]
+    C --> E[Output]
+    D --> C
+```
+
+
 ---
 
 ## Contents
