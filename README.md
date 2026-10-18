@@ -5,12 +5,13 @@ A structured collection of **Java** programs covering language fundamentals and 
 ## Architecture / How it Works
 
 ```mermaid
-flowchart LR
-    A[User] --> B[OOPS]
-    B --> C{Logic}
-    C --> D[(Data)]
-    C --> E[Output]
-    D --> C
+flowchart TD
+    BASIC_Basic[BASIC_Basic]
+    BASIC_DataType[BASIC_DataType]
+    BASIC_Methods[BASIC_Methods]
+    BASIC_OOP[BASIC_OOP]
+    Inharitance_Module[Inharitance_Module]
+    Class_And_Objects_Module[Class_And_Objects_Module]
 ```
 
 
